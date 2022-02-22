@@ -1,0 +1,73 @@
+
+@article{blasselDrugResistanceMutations2021,
+  title        = {Drug Resistance Mutations in {{HIV}}: New Bioinformatics Approaches and Challenges},
+  shorttitle   = {Drug Resistance Mutations in {{HIV}}},
+  author       = {Blassel, Luc and Zhukova, Anna and Villabona-Arenas, Christian J and Atkins, Katherine E and Hué, Stéphane and Gascuel, Olivier},
+  date         = {2021-12-01},
+  journaltitle = {Current Opinion in Virology},
+  shortjournal = {Current Opinion in Virology},
+  volume       = {51},
+  pages        = {56--64},
+  issn         = {1879-6257},
+  doi          = {10.1016/j.coviro.2021.09.009},
+  urldate      = {2021-10-01},
+  abstract     = {Drug resistance mutations appear in HIV under treatment pressure. Resistant variants can be transmitted to treatment-naive individuals, which can lead to rapid virological failure and can limit treatment options. Consequently, quantifying the prevalence, emergence and transmission of drug resistance is critical to effectively treating patients and to shape health policies. We review recent bioinformatics developments and in particular describe: (1) the machine learning approaches intended to predict and explain the level of resistance of HIV variants from their sequence data; (2) the phylogenetic methods used to survey the emergence and dynamics of resistant HIV transmission clusters; (3) the impact of deep sequencing in studying within-host and between-host genetic diversity of HIV variants, notably regarding minority resistant variants.},
+  langid       = {english},
+  file         = {/Users/lucblassel/Zotero/storage/WN79SYCS/S1879625721001073.html}
+}
+
+@article{blasselUsingMachineLearning2021,
+  ids          = {Blassel2021.03.16.435621},
+  title        = {Using Machine Learning and Big Data to Explore the Drug Resistance Landscape in {{HIV}}},
+  author       = {Blassel, Luc and Tostevin, Anna and Villabona-Arenas, Christian Julian and Peeters, Martine and Hué, Stéphane and Gascuel, Olivier},
+  date         = {2021-08-26},
+  journaltitle = {PLOS Computational Biology},
+  shortjournal = {PLOS Computational Biology},
+  volume       = {17},
+  number       = {8},
+  eprint       = {https://www.biorxiv.org/content/early/2021/03/16/2021.03.16.435621.full.pdf},
+  pages        = {e1008873},
+  publisher    = {{Public Library of Science}},
+  issn         = {1553-7358},
+  doi          = {10.1371/journal.pcbi.1008873},
+  urldate      = {2021-08-27},
+  abstract     = {Drug resistance mutations (DRMs) appear in HIV under treatment pressure. DRMs are commonly transmitted to naive patients. The standard approach to reveal new DRMs is to test for significant frequency differences of mutations between treated and naive patients. However, we then consider each mutation individually and cannot hope to study interactions between several mutations. Here, we aim to leverage the ever-growing quantity of high-quality sequence data and machine learning methods to study such interactions (i.e. epistasis), as well as try to find new DRMs. We trained classifiers to discriminate between Reverse Transcriptase Inhibitor (RTI)-experienced and RTI-naive samples on a large HIV-1 reverse transcriptase (RT) sequence dataset from the UK (n ≈ 55, 000), using all observed mutations as binary representation features. To assess the robustness of our findings, our classifiers were evaluated on independent data sets, both from the UK and Africa. Important representation features for each classifier were then extracted as potential DRMs. To find novel DRMs, we repeated this process by removing either features or samples associated to known DRMs. When keeping all known resistance signal, we detected sufficiently prevalent known DRMs, thus validating the approach. When removing features corresponding to known DRMs, our classifiers retained some prediction accuracy, and six new mutations significantly associated with resistance were identified. These six mutations have a low genetic barrier, are correlated to known DRMs, and are spatially close to either the RT active site or the regulatory binding pocket. When removing both known DRM features and sequences containing at least one known DRM, our classifiers lose all prediction accuracy. These results likely indicate that all mutations directly conferring resistance have been found, and that our newly discovered DRMs are accessory or compensatory mutations. Moreover, apart from the accessory nature of the relationships we found, we did not find any significant signal of further, more subtle epistasis combining several mutations which individually do not seem to confer any resistance.},
+  elocation-id = {2021.03.16.435621},
+  langid       = {english},
+  keywords     = {Antiretroviral therapy,Antiretrovirals,Drug therapy,Epistasis,HIV,HIV-1,Machine learning,Protein sequencing,resume},
+  file         = {/Users/lucblassel/Google Drive/Zotero_papers/Blassel et al_2021_Using machine learning and big data to explore the drug resistance landscape in.pdf;/Users/lucblassel/Zotero/storage/GQW3AFPI/Blassel et al. - 2021 - Using machine learning and big data to explore the.pdf;/Users/lucblassel/Zotero/storage/MXHBMB2U/Blassel et al. - 2021 - Using machine learning and big data to explore the.pdf;/Users/lucblassel/Zotero/storage/D92DYARS/2021.03.16.html;/Users/lucblassel/Zotero/storage/SQCW5LN6/article.html}
+}
+
+@article{lemoineCOVIDAlignAccurateOnline2020,
+  title        = {{{COVID-Align}}: {{Accurate}} Online Alignment of {{hCoV-19}} Genomes Using a Profile {{HMM}}},
+  shorttitle   = {{{COVID-Align}}},
+  author       = {Lemoine, Frédéric and Blassel, Luc and Voznica, Jakub and Gascuel, Olivier},
+  date         = {2020-10-12},
+  journaltitle = {Bioinformatics},
+  shortjournal = {Bioinformatics},
+  issn         = {1367-4803},
+  doi          = {10.1093/bioinformatics/btaa871},
+  urldate      = {2021-05-23},
+  abstract     = {The first cases of the COVID-19 pandemic emerged in December 2019. Until the end of February 2020, the number of available genomes was below 1,000, and their multiple alignment was easily achieved using standard approaches. Subsequently, the availability of genomes has grown dramatically. Moreover, some genomes are of low quality with sequencing/assembly errors, making accurate re-alignment of all genomes nearly impossible on a daily basis. A more efficient, yet accurate approach was clearly required to pursue all subsequent bioinformatics analyses of this crucial data.hCoV-19 genomes are highly conserved, with very few indels and no recombination. This makes the profile HMM approach particularly well suited to align new genomes, add them to an existing alignment and filter problematic ones. Using a core of ∼2,500 high quality genomes, we estimated a profile using HMMER, and implemented this profile in COVID-Align, a user-friendly interface to be used online or as standalone via Docker. The alignment of 1,000 genomes requires ∼50mn on our cluster. Moreover, COVID-Align provides summary statistics, which can be used to determine the sequencing quality and evolutionary novelty of input genomes (e.g. number of new mutations and indels).https://covalign.pasteur.cloud, hub.docker.com/r/evolbioinfo/covid-alignSupplementary information is available at Bioinformatics online.},
+  issue        = {btaa871},
+  keywords     = {resume},
+  file         = {/Users/lucblassel/Google Drive/Zotero_papers/Lemoine et al_2020_COVID-Align.pdf;/Users/lucblassel/Google Drive/Zotero_papers/Lemoine et al_2020_COVID-Align2.pdf;/Users/lucblassel/Zotero/storage/TWPB6DK8/5921170.html;/Users/lucblassel/Zotero/storage/WMX2P5YE/5921170.html}
+}
+
+@article{zhukovaOriginEvolutionGlobal2021,
+  ids          = {zhukovaOriginEvolutionGlobal},
+  title        = {Origin, Evolution and Global Spread of {{SARS-CoV-2}}},
+  author       = {Zhukova, Anna and Blassel, Luc and Lemoine, Frédéric and Morel, Marie and Voznica, Jakub and Gascuel, Olivier},
+  date         = {2021},
+  journaltitle = {Comptes Rendus. Biologies},
+  volume       = {344},
+  number       = {1},
+  pages        = {57--75},
+  issn         = {1768-3238},
+  doi          = {10.5802/crbiol.29},
+  urldate      = {2022-02-22},
+  keywords     = {resume},
+  file         = {/Users/lucblassel/Google Drive/Zotero_papers/Zhukova et al_0_Origin, evolution and global spread of SARS-CoV-2.pdf;/Users/lucblassel/Zotero/storage/A6XIHPZM/Zhukova et al. - 2021 - Origin, evolution and global spread of SARS-CoV-2.pdf;/Users/lucblassel/Zotero/storage/PD2H5AGZ/crbiol.29.html;/Users/lucblassel/Zotero/storage/VEMJP3B7/CRBIOL_0__0_0_A1_0.html}
+}
+
+

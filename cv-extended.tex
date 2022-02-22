@@ -1,0 +1,28 @@
+%!TEX TS-program = xelatex
+\documentclass[a4paper,online,extended]{adcv}
+
+\usepackage[english]{babel}
+\addbibresource{bib_luc_blassel.bib}
+
+\input{parts/header.tex}
+
+\begin{document}
+
+    \input{parts/intro.tex}
+
+    \input{parts/experience.tex}
+
+    \input{parts/education.tex}
+
+    \newpage
+
+    \input{parts/languages.tex}
+
+    \input{parts/misc.tex}
+
+    \section{Publications}\label{sec:publications}
+
+    \nocite{*}
+    \printbibliography[title={Peer-reviewed journals}, heading=none]
+
+\end{document}
