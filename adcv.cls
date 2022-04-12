@@ -508,7 +508,7 @@
 
 % Publications
 
-\RequirePackage[backend=biber,block=par,defernumbers=false,maxnames=99,sorting=none,style=numeric]{biblatex}
+\RequirePackage[backend=biber,block=par,defernumbers=true,maxnames=99,sorting=ydnt,style=numeric]{biblatex}
 \RequirePackage{csquotes}
 \urlstyle{same}
 
@@ -590,6 +590,21 @@
     \setunit{}%
     \newblock%
     \printfield{isbn}%
+    \newblock%
+  }%
+  \vspace{.5\baselineskip}%
+}
+
+\DeclareBibliographyDriver{unpublished}{%
+  \printfield{title}%
+  \newblock%
+  \printnames{author}%
+  \newblock%
+  {%
+    \small\lighttext%
+    \printfield{year}%
+    \newblock%
+    \printfield{howpublished}%
     \newblock%
   }%
   \vspace{.5\baselineskip}%
