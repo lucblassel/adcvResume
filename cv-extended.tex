@@ -1,6 +1,6 @@
 %!TEX TS-program = xelatex
 \documentclass[a4paper,online,extended]{adcv}
-
+\PassOptionsToPackage{style=alphabetic}{biblatex}
 
 \usepackage[english]{babel}
 \addbibresource{bib_luc_blassel.bib}
@@ -16,11 +16,9 @@
 
     \input{parts/education.tex}
 
-    \newpage
-
     \input{parts/languages.tex}
 
-    \input{parts/misc.tex}
+    % \input{parts/misc.tex}
 
     \nocite{*}
     \section{Publications}

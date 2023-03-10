@@ -332,6 +332,7 @@
   Color=regulartext
 ]{Roboto-Light.ttf}
 
+\newfontfamily\medium[Path = fonts/, Color=regulartext]{Roboto-Medium.ttf}
 \newfontfamily\regular[Path = fonts/, Color=regulartext]{Roboto-Regular.ttf}
 \newfontfamily\light[Path = fonts/, Color=regulartext]{Roboto-Light.ttf}
 \newfontfamily\thin[Path = fonts/, Color=regulartext]{Roboto-Thin.ttf}
@@ -508,7 +509,8 @@
 
 % Publications
 
-\RequirePackage[backend=biber,block=par,defernumbers=true,maxnames=99,sorting=ydnt,style=numeric]{biblatex}
+% \RequirePackage[backend=biber,block=par,defernumbers=true,maxnames=99,sorting=ydnt,style=numeric]{biblatex}
+\RequirePackage[backend=biber,block=par,defernumbers=true,maxnames=99,sorting=ydnt,style=authoryear]{biblatex}
 \RequirePackage{csquotes}
 \urlstyle{same}
 
@@ -626,10 +628,10 @@
 }
 
 \DeclareNameFormat{author}{%
-  \small\lighttext%
+  \small\ifitemannotation{highlight}{\medium}{}\lighttext%
   \nameparts{#1}%
   \ifblank{\namepartgiven}{}{\namepartgiven\space}\namepartfamily%
-  \ifthenelse{\value{listcount}<\value{liststop}}{\addcomma\space}{}%
+  \light\small\lighttext\ifthenelse{\value{listcount}<\value{liststop}}{\addcomma\space}{}%
 }
 
 % Presentations
