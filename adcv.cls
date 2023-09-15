@@ -628,10 +628,17 @@
 }
 
 \DeclareNameFormat{author}{%
+  % Set highlight font if annotation is specified
   \small\ifitemannotation{highlight}{\medium}{}\lighttext%
+  % Add author name
   \nameparts{#1}%
   \ifblank{\namepartgiven}{}{\namepartgiven\space}\namepartfamily%
-  \light\small\lighttext\ifthenelse{\value{listcount}<\value{liststop}}{\addcomma\space}{}%
+  % Reset font to normal
+  \light\small\lighttext%
+  % Add co-first annot if necessary
+  \ifitemannotation{cofirst}{ \textsuperscript{f}}{}%
+  % Add author sparators as needed
+  \ifthenelse{\value{listcount}<\value{liststop}}{\addcomma\space}{}%
 }
 
 % Presentations
