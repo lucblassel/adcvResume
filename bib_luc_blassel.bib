@@ -2,39 +2,54 @@
 %     PREPRINTS    %
 %%%%%%%%%%%%%%%%%%%%
 
-@article{Nesterenko2024.06.17.599404,
+%%%%%%%%%%%%%%%%%%%%
+%     PUBLISHED    %
+%%%%%%%%%%%%%%%%%%%%
+
+
+@article{10.1093/molbev/msaf051,
   author = {Nesterenko, Luca and Blassel, Luc and Veber, Philippe and Boussau,
             Bastien and Jacob, Laurent},
   title = {Phyloformer: Fast, accurate and versatile phylogenetic reconstruction
            with deep neural networks},
+  journal = {Molecular Biology and Evolution},
   author+an = {1=cofirst; 2=highlight, cofirst},
-  keywords = {preprint,resume},
-  year = {2024},
-  doi = {10.1101/2024.06.17.599404},
+  keywords = {published,resume},
+  pages = {msaf051},
+  year = {2025},
+  month = {03},
   abstract = {Phylogenetic inference aims at reconstructing the tree describing
               the evolution of a set of sequences descending from a common
-              ancestor. The high computational cost of state-of-the-art Maximum
+              ancestor. The high computational cost of state-of-the-art maximum
               likelihood and Bayesian inference methods limits their usability
               under realistic evolutionary models. Harnessing recent advances in
               likelihood-free inference and geometric deep learning, we introduce
               Phyloformer, a fast and accurate method for evolutionary distance
               estimation and phylogenetic reconstruction. Sampling many trees and
               sequences under an evolutionary model, we train the network to
-              learn a function that enables predicting the former from the
-              latter. Under a commonly used model of protein sequence evolution
-              and exploiting GPU acceleration, it outpaces fast distance methods
-              while matching maximum likelihood accuracy on simulated and
-              empirical data. Under more complex models, some of which include
-              dependencies between sites, it outperforms other methods. Our
-              results pave the way for the adoption of sophisticated realistic
-              models for phylogenetic inference.Competing Interest StatementThe
-              authors have declared no competing interest.},
-  journal = {bioRxiv},
+              learn a function that enables predicting a tree from a multiple
+              sequence alignment. On simulated data, we compare Phyloformer to
+              FastME –a distance method– and two maximum likelihood methods:
+              FastTree and IQTree. Under a commonly used model of protein
+              sequence evolution and exploiting GPU acceleration, Phyloformer
+              outpaces all other approaches and exceeds their accuracy in the
+              Kuhner-Felsenstein metric that accounts for both the topology and
+              branch lengths. In terms of topological accuracy alone, Phyloformer
+              outperforms FastME, but falls behind maximum likelihood approaches,
+              especially as the number of sequences increases. When a model of
+              sequence evolution that includes dependencies between sites is used
+              , Phyloformer outperforms all other methods across all metrics on
+              alignments with fewer than 80 sequences. On 3801 empirical gene
+              alignments from 5 different datasets, Phyloformer matches the
+              topological accuracy of the two maximum likelihood implementations.
+              Our results pave the way for the adoption of sophisticated
+              realistic models for phylogenetic inference.},
+  issn = {1537-1719},
+  doi = {10.1093/molbev/msaf051},
 }
 
-%%%%%%%%%%%%%%%%%%%%
-%     PUBLISHED    %
-%%%%%%%%%%%%%%%%%%%%
+
+
 
 @article{blasselDrugResistanceMutations2021,
   author = {Blassel, Luc and Zhukova, Anna and Villabona-Arenas, Christian J and
