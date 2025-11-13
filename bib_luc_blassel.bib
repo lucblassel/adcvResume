@@ -2,6 +2,41 @@
 %     PREPRINTS    %
 %%%%%%%%%%%%%%%%%%%%
 
+
+@article{blassel_likelihood-free_2025,
+  title = {Likelihood-free inference of phylogenetic tree posterior
+           distributions},
+  doi = {10.48550/arXiv.2510.12976},
+  abstract = {Phylogenetic inference, the task of reconstructing how related
+              sequences evolved from common ancestors, is a central task in
+              evolutionary genomics. The current state-of-the-art methods exploit
+              probabilistic models of sequence evolution along phylogenetic trees
+              , by searching for the tree maximizing the likelihood of observed
+              sequences, or by estimating the posterior of the tree given the
+              sequences in a Bayesian framework. Both approaches typically
+              require to compute likelihoods, which is only feasible under
+              simplifying assumptions such as independence of the evolution at
+              the different positions of the sequence, and even then remains a
+              costly operation. Here we present Phyloformer 2, the first
+              likelihood-free inference method for posterior distributions over
+              phylogenies. Phyloformer 2 exploits a novel encoding for pairs of
+              sequences that makes it more scalable than previous approaches, and
+              a parameterized probability distribution factorized over a
+              succession of subtree merges. The resulting network provides
+              accurate estimates of the posterior distribution, and outperforms
+              both state-of-the-art maximum likelihood methods and a previous
+              likelihood-free method for point estimation. It opens the way to
+              fast and accurate phylogenetic inference under realistic models of
+              sequence evolution.},
+  author = {Blassel, Luc and Boussau, Bastien and Lartillot, Nicolas and Jacob,
+            Laurent},
+  date = {2025-10-14},
+  eprinttype = {arxiv},
+  journaltitle = {arXiv},
+  keywords = {Quantitative Biology - Quantitative Methods, Quantitative Biology
+              - Populations and Evolution,preprint,resume},
+}
+
 %%%%%%%%%%%%%%%%%%%%
 %     PUBLISHED    %
 %%%%%%%%%%%%%%%%%%%%
@@ -157,18 +192,28 @@
   year = {2021},
 }
 
-%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%
 % CONFERENCE TALKS %
 %%%%%%%%%%%%%%%%%%%%
+
+@misc{blasselHIVDRMMCEB2019,
+  author = {Blassel, Luc and Zhukova, Anna and Gascuel, Olivier},
+  author+an = {1=highligh},
+  title = {Machine learning approaches to reveal resistance mutations in HIV},
+  keywords = {resume,talk},
+  journaltitle = {MCEB},
+  note = {(poster)},
+  date = {2019},
+}
 
 @misc{blasselMappingfriendlySequenceReductions2022a,
   author = {Blassel, Luc and Medvedev, Paul and Chikhi, Rayan},
   author+an = {1=highlight},
   keywords = {resume,talk},
-  note = {{{RECOMB-SEQ}} 2022},
   title = {Mapping-Friendly Sequence Reductions: Going beyond Homopolymer
            Compression},
-  year = {2022},
+  journaltitle = {{RECOMB-SEQ}},
+  date = {2022},
 }
 
 @misc{blasselPhyloformerMCEB,
@@ -178,26 +223,26 @@
            with deep neural networks},
   author+an = {1=cofirst; 2=highlight, cofirst},
   keywords = {resume,talk},
-  note = {MCEB 2024},
-  year = {2024},
+  journaltitle = {MCEB},
+  date = {2024},
 }
 
 @misc{blasselPhyloformer2MASAMB,
-  author = {Blassel, Luc and Boussau,
-            Bastien and Lartillot, Nicolas and Jacob, Laurent},
+  author = {Blassel, Luc and Boussau, Bastien and Lartillot, Nicolas and Jacob,
+            Laurent},
   author+an = {1=highlight},
   title = {Deep likelihood-free inference of phylogenetic trees},
   keywords = {resume,talk},
-  note = {MASAMB 2025},
-  year = {2025},
+  journaltitle = {MASAMB},
+  date = {2025},
 }
 
 @misc{blasselPhyloformer2MLCB,
-  author = {Blassel, Luc and Boussau,
-            Bastien and Lartillot, Nicolas and Jacob, Laurent},
+  author = {Blassel, Luc and Boussau, Bastien and Lartillot, Nicolas and Jacob,
+            Laurent},
   author+an = {1=highlight},
-  title = {Deep likelihood-free inference of phylogenetic trees},
+  title = {Deep end-to-end likelihood-free inference of phylogenetic trees},
   keywords = {resume,talk},
-  note = {MLCB 2025},
-  year = {2025},
+  journaltitle = {MLCB},
+  date = {2025},
 }

@@ -17,223 +17,223 @@
 \newif\ifextended
 \extendedfalse
 \DeclareOption{extended}{
-  \extendedtrue
+	\extendedtrue
 }
 
 \newif\ifonline
 \onlinefalse
 \DeclareOption{online}{
-  \onlinetrue
+	\onlinetrue
 }
 
 \newif\ifprint
 \printfalse
 \DeclareOption{print}{
-  \printtrue
+	\printtrue
 }
 
 \DeclareOption{bg}{
-  \AtEndOfPackage{
-    \InputIfFileExists{adcv_bg.def}{}{
-      \ClassError{adcv}{Bulgarian definition file 'adcv_bg.def' not found.}
-    }
-  }
+	\AtEndOfPackage{
+		\InputIfFileExists{adcv_bg.def}{}{
+			\ClassError{adcv}{Bulgarian definition file 'adcv_bg.def' not found.}
+		}
+	}
 }
 
 \DeclareOption{hr}{
-  \AtEndOfPackage{
-    \InputIfFileExists{adcv_hr.def}{}{
-      \ClassError{adcv}{Croatian definition file 'adcv_hr.def' not found.}
-    }
-  }
+	\AtEndOfPackage{
+		\InputIfFileExists{adcv_hr.def}{}{
+			\ClassError{adcv}{Croatian definition file 'adcv_hr.def' not found.}
+		}
+	}
 }
 
 \DeclareOption{cs}{
-  \AtEndOfPackage{
-    \InputIfFileExists{adcv_cs.def}{}{
-      \ClassError{adcv}{Czech definition file 'adcv_cs.def' not found.}
-    }
-  }
+	\AtEndOfPackage{
+		\InputIfFileExists{adcv_cs.def}{}{
+			\ClassError{adcv}{Czech definition file 'adcv_cs.def' not found.}
+		}
+	}
 }
 
 \DeclareOption{da}{
-  \AtEndOfPackage{
-    \InputIfFileExists{adcv_da.def}{}{
-      \ClassError{adcv}{Danish definition file 'adcv_da.def' not found.}
-    }
-  }
+	\AtEndOfPackage{
+		\InputIfFileExists{adcv_da.def}{}{
+			\ClassError{adcv}{Danish definition file 'adcv_da.def' not found.}
+		}
+	}
 }
 
 \DeclareOption{nl}{
-  \AtEndOfPackage{
-    \InputIfFileExists{adcv_nl.def}{}{
-      \ClassError{adcv}{Dutch definition file 'adcv_nl.def' not found.}
-    }
-  }
+	\AtEndOfPackage{
+		\InputIfFileExists{adcv_nl.def}{}{
+			\ClassError{adcv}{Dutch definition file 'adcv_nl.def' not found.}
+		}
+	}
 }
 
 \DeclareOption{en}{
-  \AtEndOfPackage{
-    \InputIfFileExists{adcv_en.def}{}{
-      \ClassError{adcv}{English definition file 'adcv_en.def' not found.}
-    }
-  }
+	\AtEndOfPackage{
+		\InputIfFileExists{adcv_en.def}{}{
+			\ClassError{adcv}{English definition file 'adcv_en.def' not found.}
+		}
+	}
 }
 
 \DeclareOption{et}{
-  \AtEndOfPackage{
-    \InputIfFileExists{adcv_et.def}{}{
-      \ClassError{adcv}{Estonian definition file 'adcv_et.def' not found.}
-    }
-  }
+	\AtEndOfPackage{
+		\InputIfFileExists{adcv_et.def}{}{
+			\ClassError{adcv}{Estonian definition file 'adcv_et.def' not found.}
+		}
+	}
 }
 
 \DeclareOption{fi}{
-  \AtEndOfPackage{
-    \InputIfFileExists{adcv_fi.def}{}{
-      \ClassError{adcv}{Finnish definition file 'adcv_fi.def' not found.}
-    }
-  }
+	\AtEndOfPackage{
+		\InputIfFileExists{adcv_fi.def}{}{
+			\ClassError{adcv}{Finnish definition file 'adcv_fi.def' not found.}
+		}
+	}
 }
 
 \DeclareOption{fr}{
-  \AtEndOfPackage{
-    \InputIfFileExists{adcv_fr.def}{}{
-      \ClassError{adcv}{French definition file 'adcv_fr.def' not found.}
-    }
-  }
+	\AtEndOfPackage{
+		\InputIfFileExists{adcv_fr.def}{}{
+			\ClassError{adcv}{French definition file 'adcv_fr.def' not found.}
+		}
+	}
 }
 
 \DeclareOption{de}{
-  \AtEndOfPackage{
-    \InputIfFileExists{adcv_de.def}{}{
-      \ClassError{adcv}{German definition file 'adcv_de.def' not found.}
-    }
-  }
+	\AtEndOfPackage{
+		\InputIfFileExists{adcv_de.def}{}{
+			\ClassError{adcv}{German definition file 'adcv_de.def' not found.}
+		}
+	}
 }
 
 \DeclareOption{el}{
-  \AtEndOfPackage{
-    \InputIfFileExists{adcv_el.def}{}{
-      \ClassError{adcv}{Greek definition file 'adcv_el.def' not found.}
-    }
-  }
+	\AtEndOfPackage{
+		\InputIfFileExists{adcv_el.def}{}{
+			\ClassError{adcv}{Greek definition file 'adcv_el.def' not found.}
+		}
+	}
 }
 
 \DeclareOption{hu}{
-  \AtEndOfPackage{
-    \InputIfFileExists{adcv_hu.def}{}{
-      \ClassError{adcv}{Hungarian definition file 'adcv_hu.def' not found.}
-    }
-  }
+	\AtEndOfPackage{
+		\InputIfFileExists{adcv_hu.def}{}{
+			\ClassError{adcv}{Hungarian definition file 'adcv_hu.def' not found.}
+		}
+	}
 }
 
 \DeclareOption{ga}{
-  \AtEndOfPackage{
-    \InputIfFileExists{adcv_ga.def}{}{
-      \ClassError{adcv}{Irish definition file 'adcv_ga.def' not found.}
-    }
-  }
+	\AtEndOfPackage{
+		\InputIfFileExists{adcv_ga.def}{}{
+			\ClassError{adcv}{Irish definition file 'adcv_ga.def' not found.}
+		}
+	}
 }
 
 \DeclareOption{it}{
-  \AtEndOfPackage{
-    \InputIfFileExists{adcv_it.def}{}{
-      \ClassError{adcv}{Italian definition file 'adcv_it.def' not found.}
-    }
-  }
+	\AtEndOfPackage{
+		\InputIfFileExists{adcv_it.def}{}{
+			\ClassError{adcv}{Italian definition file 'adcv_it.def' not found.}
+		}
+	}
 }
 
 \DeclareOption{lv}{
-  \AtEndOfPackage{
-    \InputIfFileExists{adcv_lv.def}{}{
-      \ClassError{adcv}{Latvian definition file 'adcv_lv.def' not found.}
-    }
-  }
+	\AtEndOfPackage{
+		\InputIfFileExists{adcv_lv.def}{}{
+			\ClassError{adcv}{Latvian definition file 'adcv_lv.def' not found.}
+		}
+	}
 }
 
 \DeclareOption{lt}{
-  \AtEndOfPackage{
-    \InputIfFileExists{adcv_lt.def}{}{
-      \ClassError{adcv}{Lithuanian definition file 'adcv_lt.def' not found.}
-    }
-  }
+	\AtEndOfPackage{
+		\InputIfFileExists{adcv_lt.def}{}{
+			\ClassError{adcv}{Lithuanian definition file 'adcv_lt.def' not found.}
+		}
+	}
 }
 
 \DeclareOption{mt}{
-  \AtEndOfPackage{
-    \InputIfFileExists{adcv_mt.def}{}{
-      \ClassError{adcv}{Maltese definition file 'adcv_mt.def' not found.}
-    }
-  }
+	\AtEndOfPackage{
+		\InputIfFileExists{adcv_mt.def}{}{
+			\ClassError{adcv}{Maltese definition file 'adcv_mt.def' not found.}
+		}
+	}
 }
 
 \DeclareOption{no}{
-  \AtEndOfPackage{
-    \InputIfFileExists{adcv_no.def}{}{
-      \ClassWarningNoLine{adcv}{Norwegian definition file 'adcv_no.def' not found.}
-    }
-  }
+	\AtEndOfPackage{
+		\InputIfFileExists{adcv_no.def}{}{
+			\ClassWarningNoLine{adcv}{Norwegian definition file 'adcv_no.def' not found.}
+		}
+	}
 }
 
 \DeclareOption{pl}{
-  \AtEndOfPackage{
-    \InputIfFileExists{adcv_pl.def}{}{
-      \ClassError{adcv}{Polish definition file 'adcv_pl.def' not found.}
-    }
-  }
+	\AtEndOfPackage{
+		\InputIfFileExists{adcv_pl.def}{}{
+			\ClassError{adcv}{Polish definition file 'adcv_pl.def' not found.}
+		}
+	}
 }
 
 \DeclareOption{pt}{
-  \AtEndOfPackage{
-    \InputIfFileExists{adcv_pt.def}{}{
-      \ClassError{adcv}{Portuguese definition file 'adcv_pt.def' not found.}
-    }
-  }
+	\AtEndOfPackage{
+		\InputIfFileExists{adcv_pt.def}{}{
+			\ClassError{adcv}{Portuguese definition file 'adcv_pt.def' not found.}
+		}
+	}
 }
 
 \DeclareOption{ro}{
-  \AtEndOfPackage{
-    \InputIfFileExists{adcv_ro.def}{}{
-      \ClassError{adcv}{Romanian definition file 'adcv_ro.def' not found.}
-    }
-  }
+	\AtEndOfPackage{
+		\InputIfFileExists{adcv_ro.def}{}{
+			\ClassError{adcv}{Romanian definition file 'adcv_ro.def' not found.}
+		}
+	}
 }
 
 \DeclareOption{sk}{
-  \AtEndOfPackage{
-    \InputIfFileExists{adcv_sk.def}{}{
-      \ClassError{adcv}{Slovak definition file 'adcv_sk.def' not found.}
-    }
-  }
+	\AtEndOfPackage{
+		\InputIfFileExists{adcv_sk.def}{}{
+			\ClassError{adcv}{Slovak definition file 'adcv_sk.def' not found.}
+		}
+	}
 }
 
 \DeclareOption{sl}{
-  \AtEndOfPackage{
-    \InputIfFileExists{adcv_sl.def}{}{
-      \ClassError{adcv}{Slovenian definition file 'adcv_sl.def' not found.}
-    }
-  }
+	\AtEndOfPackage{
+		\InputIfFileExists{adcv_sl.def}{}{
+			\ClassError{adcv}{Slovenian definition file 'adcv_sl.def' not found.}
+		}
+	}
 }
 
 \DeclareOption{es}{
-  \AtEndOfPackage{
-    \InputIfFileExists{adcv_es.def}{}{
-      \ClassWarningNoLine{adcv}{Spanish definition file 'adcv_es.def' not found.}
-    }
-  }
+	\AtEndOfPackage{
+		\InputIfFileExists{adcv_es.def}{}{
+			\ClassWarningNoLine{adcv}{Spanish definition file 'adcv_es.def' not found.}
+		}
+	}
 }
 
 \DeclareOption{sv}{
-  \AtEndOfPackage{
-    \InputIfFileExists{adcv_sv.def}{}{
-      \ClassWarningNoLine{adcv}{Swedish definition file 'adcv_sv.def' not found.}
-    }
-  }
+	\AtEndOfPackage{
+		\InputIfFileExists{adcv_sv.def}{}{
+			\ClassWarningNoLine{adcv}{Swedish definition file 'adcv_sv.def' not found.}
+		}
+	}
 }
 
 \DeclareOption*{
-  \PassOptionsToClass{\CurrentOption}{article}
+	\PassOptionsToClass{\CurrentOption}{article}
 }
 
 \ExecuteOptions{en}
@@ -282,17 +282,17 @@
 \definecolor{coralpink}{HTML}{FF706C}
 
 \ifprint
-  \colorlet{regulartext}{black}
-  \colorlet{headerfill}{white}
-  \colorlet{headertext}{black}
-  \colorlet{lighttext}{gray}
-  \colorlet{linktext}{lightgray}
+	\colorlet{regulartext}{black}
+	\colorlet{headerfill}{white}
+	\colorlet{headertext}{black}
+	\colorlet{lighttext}{gray}
+	\colorlet{linktext}{lightgray}
 \else
-  \colorlet{regulartext}{gray}
-  \colorlet{headerfill}{paynegray}
-  \colorlet{headertext}{white}
-  \colorlet{lighttext}{lightgray}
-  \colorlet{linktext}{coralpink}
+	\colorlet{regulartext}{gray}
+	\colorlet{headerfill}{paynegray}
+	\colorlet{headertext}{white}
+	\colorlet{lighttext}{lightgray}
+	\colorlet{linktext}{coralpink}
 \fi
 
 % Hyperref
@@ -300,24 +300,24 @@
 \RequirePackage{hyperref}
 
 \hypersetup{
-  colorlinks=true,
-  allcolors=linktext
+	colorlinks=true,
+	allcolors=linktext
 }
 
 \ifextended
-  \AtBeginDocument{%
-    \hypersetup{%
-      pdfauthor={\adcv@firstname~\adcv@lastname},%
-      pdftitle={\adcv@firstname~\adcv@lastname\adcv@cvofkey}%
-    }%
-  }
+	\AtBeginDocument{%
+		\hypersetup{%
+			pdfauthor={\adcv@firstname~\adcv@lastname},%
+			pdftitle={\adcv@firstname~\adcv@lastname\adcv@cvofkey}%
+		}%
+	}
 \else
-  \AtBeginDocument{%
-    \hypersetup{%
-      pdfauthor={\adcv@firstname~\adcv@lastname},%
-      pdftitle={\adcv@firstname~\adcv@lastname\adcv@resumeofkey}%
-    }%
-  }
+	\AtBeginDocument{%
+		\hypersetup{%
+			pdfauthor={\adcv@firstname~\adcv@lastname},%
+			pdftitle={\adcv@firstname~\adcv@lastname\adcv@resumeofkey}%
+		}%
+	}
 \fi
 
 % Fonts
@@ -325,11 +325,11 @@
 \RequirePackage{fontspec}
 
 \setmainfont[
-  Path = fonts/,
-  BoldFont = Roboto-Bold.ttf,
-  ItalicFont = Roboto-Italic.ttf,
-  BoldItalicFont = Roboto-BoldItalic.ttf,
-  Color=regulartext
+	Path = fonts/,
+	BoldFont = Roboto-Bold.ttf,
+	ItalicFont = Roboto-Italic.ttf,
+	BoldItalicFont = Roboto-BoldItalic.ttf,
+	Color=regulartext
 ]{Roboto-Light.ttf}
 
 \newfontfamily\medium[Path = fonts/, Color=regulartext]{Roboto-Medium.ttf}
@@ -362,11 +362,11 @@
 \graphicspath{{icons/}}
 
 \ifprint
-  \newcommand*{\aticon}{\includegraphics[height=0.75em]{at_print.png}}
-  \newcommand*{\doticon}{\includegraphics[height=0.1em]{dot_print.png}}
+	\newcommand*{\aticon}{\includegraphics[height=0.75em]{at_print.png}}
+	\newcommand*{\doticon}{\includegraphics[height=0.1em]{dot_print.png}}
 \else
-  \newcommand*{\aticon}{\includegraphics[height=0.75em]{at.png}}
-  \newcommand*{\doticon}{\includegraphics[height=0.1em]{dot.png}}
+	\newcommand*{\aticon}{\includegraphics[height=0.75em]{at.png}}
+	\newcommand*{\doticon}{\includegraphics[height=0.1em]{dot.png}}
 \fi
 
 \newcommand*{\chaticon}{\includegraphics[height=0.75em]{chat.pdf}}
@@ -376,50 +376,50 @@
 \newcommand*{\placeicon}{\includegraphics[height=0.75em]{place.pdf}}
 
 \ifonline
-  \def\adcv@address{\placeicon~\adcv@locality,~\adcv@country}
-  \def\adcv@email{\envelopeicon~{\linktext\adcv@emaillocal\aticon\adcv@emaildomainsecond\doticon\adcv@emaildomaintop}}
-  \def\adcv@telephone{}
+	\def\adcv@address{\placeicon~\adcv@locality,~\adcv@country}
+	\def\adcv@email{\envelopeicon~{\linktext\adcv@emaillocal\aticon\adcv@emaildomainsecond\doticon\adcv@emaildomaintop}}
+	\def\adcv@telephone{}
 \else
-  \def\adcv@address{\placeicon~\adcv@street,~\adcv@postalcode~\adcv@locality,~\adcv@country}
-  \def\adcv@email{\envelopeicon~\href{mailto:\adcv@emaillocal @\adcv@emaildomainsecond.\adcv@emaildomaintop}{\adcv@emaillocal @\adcv@emaildomainsecond.\adcv@emaildomaintop}}
-  \def\adcv@telephone{\phoneicon~\adcv@phone}
+	\def\adcv@address{\placeicon~\adcv@street,~\adcv@postalcode~\adcv@locality,~\adcv@country}
+	\def\adcv@email{\envelopeicon~\href{mailto:\adcv@emaillocal @\adcv@emaildomainsecond.\adcv@emaildomaintop}{\adcv@emaillocal @\adcv@emaildomainsecond.\adcv@emaildomaintop}}
+	\def\adcv@telephone{\phoneicon~\adcv@phone}
 \fi
 
 \AtBeginDocument{%
-  \begin{tikzpicture}[remember picture, overlay]%
-    \node [rectangle, fill=headerfill, minimum width=\paperwidth, minimum height=8em, anchor=north] (box) at (current page.north) {};%
-    \node [text=headertext, anchor=center] (name) at (box) {%
-      % {\Huge\thinheader\adcv@firstname~\regularheader\adcv@lastname\thinheader,~\adcv@degree}%
-      {\Huge\thinheader\adcv@firstname~\regularheader\adcv@lastname\thinheader}%
-    };%
-    \node [text=headertext, anchor=north] at (name.south) {%
-      \Large\thinheader\adcv@title%
-    };%
-  \end{tikzpicture}%
+	\begin{tikzpicture}[remember picture, overlay]%
+		\node [rectangle, fill=headerfill, minimum width=\paperwidth, minimum height=8em, anchor=north] (box) at (current page.north) {};%
+		\node [text=headertext, anchor=center] (name) at (box) {%
+			% {\Huge\thinheader\adcv@firstname~\regularheader\adcv@lastname\thinheader,~\adcv@degree}%
+			{\Huge\thinheader\adcv@firstname~\regularheader\adcv@lastname\thinheader}%
+		};%
+		\node [text=headertext, anchor=north] at (name.south) {%
+			\Large\thinheader\adcv@title%
+		};%
+	\end{tikzpicture}%
 
-  \vspace{\baselineskip}%
+	\vspace{\baselineskip}%
 
-  \ifdefined\adcv@websiteurl%
-    \ifx\adcv@websiteurl\empty%
-      \def\adcv@website{}%
-    \else%
-      \def\adcv@website{\houseicon~\href{\adcv@websiteurl}{\adcv@websitetext}}%
-    \fi%
-  \else%
-    \def\adcv@website{}%
-  \fi%
+	\ifdefined\adcv@websiteurl%
+		\ifx\adcv@websiteurl\empty%
+			\def\adcv@website{}%
+		\else%
+			\def\adcv@website{\houseicon~\href{\adcv@websiteurl}{\adcv@websitetext}}%
+		\fi%
+	\else%
+		\def\adcv@website{}%
+	\fi%
 
-  \begin{center}%
-    \ifonline%
-      \adcv@email~\adcv@website%
+	\begin{center}%
+		\ifonline%
+			\adcv@email~\adcv@website%
 
-      \adcv@address%
-    \else%
-      \adcv@email~\adcv@website%
+			\adcv@address%
+		\else%
+			\adcv@email~\adcv@website%
 
-      \adcv@address~\adcv@telephone%
-    \fi%
-  \end{center}%
+			\adcv@address~\adcv@telephone%
+		\fi%
+	\end{center}%
 }
 
 % Footer
@@ -434,12 +434,12 @@
 \def\adcv@page{\adcv@pagekey~\thepage\adcv@totpages}
 
 \AtBeginDocument{%
-  \pagestyle{fancy}%
-  \fancyhead{}%
-  \fancyfoot[C]{\footnotesize\light\adcv@firstname~\adcv@lastname\ifextended\adcv@cvofkey\else\adcv@resumeofkey\fi, \adcv@date, \adcv@telephone~\adcv@email}%
-  \fancyfoot[R]{\raggedleft\footnotesize\light\adcv@page}%
-  \renewcommand{\headrulewidth}{0em}%
-  \setlength\footskip{\baselineskip}%
+	\pagestyle{fancy}%
+	\fancyhead{}%
+	\fancyfoot[C]{\footnotesize\light\adcv@firstname~\adcv@lastname\ifextended\adcv@cvofkey\else\adcv@resumeofkey\fi, \adcv@date, \adcv@telephone~\adcv@email}%
+	\fancyfoot[R]{\raggedleft\footnotesize\light\adcv@page}%
+	\renewcommand{\headrulewidth}{0em}%
+	\setlength\footskip{\baselineskip}%
 }
 
 % Tables
@@ -470,34 +470,34 @@
 \newcommand*{\adcvmothertongue}[1]{{\adcv@mothertonguekey} & {\bfseries #1}\tabularnewline[0em]}
 
 \newcommand*{\adcvlanguagesheader}{%
-  \adcv@otherkey$^{\mbox{\scriptsize1}}$ &%
-  \setlength\extrarowheight{0em}%
-  \begin{tabular}[t]{|m{\adcv@langcol}|m{\adcv@langcol}|m{\adcv@langcol}|m{\adcv@langcol}|m{\adcv@langcol}|}%
-    \firsthline%
-    \multicolumn{2}{|c|}{{\bfseries\adcv@understandingkey}} & \multicolumn{2}{c|}{{\bfseries\adcv@speakingkey}} & \centering{\bfseries\adcv@writingkey}\tabularnewline%
-    \cline{1-4}%
-    \centering\small{\adcv@listeningkey} & \centering\small{\adcv@readingkey} & \centering\small{\adcv@interactionkey} & \centering\small{\adcv@productionkey} & \tabularnewline%
-    \hline%
-  \end{tabular}\tabularnewline[-\arrayrulewidth]%
+	\adcv@otherkey$^{\mbox{\scriptsize1}}$ &%
+	\setlength\extrarowheight{0em}%
+	\begin{tabular}[t]{|m{\adcv@langcol}|m{\adcv@langcol}|m{\adcv@langcol}|m{\adcv@langcol}|m{\adcv@langcol}|}%
+		\firsthline%
+		\multicolumn{2}{|c|}{{\bfseries\adcv@understandingkey}} & \multicolumn{2}{c|}{{\bfseries\adcv@speakingkey}} & \centering{\bfseries\adcv@writingkey}\tabularnewline                                                           %
+		\cline{1-4}%
+		\centering\small{\adcv@listeningkey}                    & \centering\small{\adcv@readingkey}                & \centering\small{\adcv@interactionkey}               & \centering\small{\adcv@productionkey} & \tabularnewline %
+		\hline%
+	\end{tabular}\tabularnewline[-\arrayrulewidth]%
 }
 
 \newcommand*{\adcvlanguage}[7]{%
-  \bfseries #2$^{\mbox{\scriptsize#1}}$ &%
-  \setlength\extrarowheight{0em}%
-  \begin{tabular}{|m{\adcv@langcol}|m{\adcv@langcol}|m{\adcv@langcol}|m{\adcv@langcol}|m{\adcv@langcol}|}%
-    \hline%
-    #3 & #4 & #5 & #6 & #7\tabularnewline%
-    \hline%
-  \end{tabular}\tabularnewline[-\arrayrulewidth]%
+	\bfseries #2$^{\mbox{\scriptsize#1}}$ &%
+	\setlength\extrarowheight{0em}%
+	\begin{tabular}{|m{\adcv@langcol}|m{\adcv@langcol}|m{\adcv@langcol}|m{\adcv@langcol}|m{\adcv@langcol}|}%
+		\hline%
+		#3 & #4 & #5 & #6 & #7\tabularnewline %
+		\hline%
+	\end{tabular}\tabularnewline[-\arrayrulewidth]%
 }
 
 \newcommand*{\adcvlanguagesfooter}{\adcvrowtwo{}{\footnotesize$^{\mbox{1}}$\textit{\adcv@cefrkey}}}
 \newcommand*{\adcvlanguagesfootnote}[2]{\adcvrowtwo{}{\footnotesize$^{\mbox{#1}}$\textit{#2}}}
 
 \newcommand*{\adcvCEF}[2]{%
-  \begin{tabular}{@{}>{\footnotesize}p{0.2\adcv@langcol}@{\hspace{1mm}}>{\footnotesize\centering}p{0.75\adcv@langcol}@{}}%
-    #1 & #2\tabularnewline%
-  \end{tabular}%
+	\begin{tabular}{@{}>{\footnotesize}p{0.2\adcv@langcol}@{\hspace{1mm}}>{\footnotesize\centering}p{0.75\adcv@langcol}@{}}%
+		#1 & #2\tabularnewline %
+	\end{tabular}%
 }
 
 \newcommand*{\adcvAOne}{\adcvCEF{A1}{\adcv@basickey}}
@@ -521,124 +521,137 @@
 
 \renewcommand*{\newunitpunct}{\addcomma\space}
 
+\DeclareFieldFormat{doi}{%
+	\ifhyperref
+	{\href{https://doi.org/#1}{\nolinkurl{#1}}}
+	{\nolinkurl{#1}}}
+
 \DeclareBibliographyDriver{article}{%
-  \printfield{title}%
-  \newblock%
-  \printnames{author}%
-  \newblock%
-  {%
-    \small\lighttext%
-    \usebibmacro{journal+issuetitle}%
-    \newunit%
-    \printfield{pages}%
-    \newunit%
-    \printlist{publisher}%
-    \setunit{}%
-    \newblock%
-    \iffieldundef{doi}{%
-      \iffieldundef{isbn}{}{%
-        \printfield{isbn}%
-        \newblock%
-      }%
-    }{%
-      \printfield{doi}%
-      \newblock%
-    }%
-    \printfield{url}%
-    \newblock%
-  }%
-  \vspace{.5\baselineskip}%
+	\printfield{title}%
+	\newblock%
+	\printnames{author}%
+	\newblock%
+	{%
+		\small\lighttext%
+		\usebibmacro{journal+issuetitle}%
+		\newunit%
+		\printfield{pages}%
+		\newunit%
+		\printlist{publisher}%
+		\newunit%
+		{%
+			\bfseries%
+			\printfield{year}%
+		}%
+		\newunit%
+		% \setunit{}%
+		% \newblock%
+		\iffieldundef{doi}{%
+			\iffieldundef{isbn}{}{%
+				\printfield{isbn}%
+				\newblock%
+			}%
+		}{%
+			\printfield{doi}%
+			\newblock%
+		}%
+		\printfield{url}%
+		\newblock%
+	}%
+	\vspace{.5\baselineskip}%
 }
 
 \DeclareBibliographyDriver{inproceedings}{%
-  \printfield{title}%
-  \newblock%
-  \printnames{author}%
-  \newblock%
-  {%
-    \small\lighttext%
-    \printfield{booktitle}%
-    \newunit%
-    \printfield{year}%
-    \newunit%
-    \printlist{publisher}%
-    \setunit{}%
-    \newblock%
-    \iffieldundef{doi}{%
-      \iffieldundef{isbn}{}{%
-        \printfield{isbn}%
-        \newblock%
-      }%
-    }{%
-      \printfield{doi}%
-      \newblock%
-    }%
-    \printfield{url}%
-    \newblock%
-  }%
-  \vspace{.5\baselineskip}%
+	\printfield{title}%
+	\newblock%
+	\printnames{author}%
+	\newblock%
+	{%
+		\small\lighttext%
+		\printfield{booktitle}%
+		\newunit%
+		\printfield{year}%
+		\newunit%
+		\printlist{publisher}%
+		% \setunit{}%
+		\newunit%
+		\iffieldundef{doi}{%
+			\iffieldundef{isbn}{}{%
+				\printfield{isbn}%
+				\newblock%
+			}%
+		}{%
+			\printfield{doi}%
+			\newblock%
+		}%
+		\printfield{url}%
+		\newblock%
+	}%
+	\vspace{.5\baselineskip}%
 }
 
 \DeclareBibliographyDriver{report}{%
-  \printfield{title}%
-  \newblock%
-  \printnames{author}%
-  \newblock%
-  {%
-    \small\lighttext%
-    \printlist{institution}%
-    \newunit%
-    \printfield{year}%
-    \setunit{}%
-    \newblock%
-    \printfield{isbn}%
-    \newblock%
-  }%
-  \vspace{.5\baselineskip}%
+	\printfield{title}%
+	\newblock%
+	\printnames{author}%
+	\newblock%
+	{%
+		\small\lighttext%
+		\printlist{institution}%
+		\newunit%
+		\printfield{year}%
+		\setunit{}%
+		\newblock%
+		\printfield{isbn}%
+		\newblock%
+	}%
+	\vspace{.5\baselineskip}%
 }
 
 \DeclareBibliographyDriver{unpublished}{%
-  \printfield{title}%
-  \newblock%
-  \printnames{author}%
-  \newblock%
-  {%
-    \small\lighttext%
-    \printfield{year}%
-    \newblock%
-    \printfield{howpublished}%
-    \newblock%
-  }%
-  \vspace{.5\baselineskip}%
+	\printfield{title}%
+	\newblock%
+	\printnames{author}%
+	\newblock%
+	{%
+		\small\lighttext%
+		\printfield{year}%
+		\newblock%
+		\printfield{howpublished}%
+		\newblock%
+	}%
+	\vspace{.5\baselineskip}%
 }
 
 \DeclareBibliographyDriver{misc}{%
-  \printfield{title}%
-  \newblock%
-  \printnames{author}%
-  \newblock%
-  {%
-    \small\lighttext%
-    \printfield{year}%
-    \newblock%
-    \printfield{note}%
-    \newblock%
-  }%
-  \vspace{.5\baselineskip}%
+	\printfield{title}%
+	\newblock%
+	\printnames{author}%
+	\newblock%
+	{%
+		\small\lighttext%
+		\usebibmacro{journal+issuetitle}%
+		\newunit%
+		\printfield{year}%
+		\newunit%
+		\printfield{note}%
+	}%
+	\newblock%
+	\vspace{.5\baselineskip}%
 }
 
 \DeclareNameFormat{author}{%
-  % Set highlight font if annotation is specified
-  \small\ifitemannotation{highlight}{\medium}{}\lighttext%
-  % Add author name
-  \nameparts{#1}%
-  \ifblank{\namepartgiven}{}{\namepartgiven\space}\namepartfamily%
-  % Reset font to normal
-  \light\small\lighttext%
-  % Add co-first annot if necessary
-  \ifitemannotation{cofirst}{ \textsuperscript{f}}{}%
-  % Add author sparators as needed
-  \ifthenelse{\value{listcount}<\value{liststop}}{\addcomma\space}{}%
+	% Set highlight font if annotation is specified
+	\small\ifitemannotation{highlight}{\medium}{}\lighttext%
+	% Add author name
+	\nameparts{#1}%
+	\ifblank{\namepartgiven}{}{\namepartgiven\space}\namepartfamily%
+	% Reset font to normal
+	\light\small\lighttext%
+	% Add co-first annot if necessary
+	\ifitemannotation{cofirst}{ \textsuperscript{f}}{}%
+	% Add author sparators as needed
+	\ifthenelse{\value{listcount}<\value{liststop}}{\addcomma\space}{}%
 }
 
 % Presentations
@@ -646,12 +659,12 @@
 \RequirePackage{enumitem}
 
 \newenvironment*{adcvpresentations}{%
-  \setlist[enumerate]{labelsep=1em}%
-  \renewcommand{\theenumi}{[\arabic{enumi}]}%
-  \renewcommand{\labelenumi}{\theenumi}%
-  \begin{enumerate}%
-}{%
-  \end{enumerate}%
+	\setlist[enumerate]{labelsep=1em}%
+	\renewcommand{\theenumi}{[\arabic{enumi}]}%
+	\renewcommand{\labelenumi}{\theenumi}%
+	\begin{enumerate}%
+		}{%
+	\end{enumerate}%
 }
 
 \newcommand*{\adcvpresentation}[2]{\item #1\\{\small\lighttext #2}}
