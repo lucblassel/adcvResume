@@ -1,6 +1,6 @@
 %!TEX TS-program = xelatex
 \documentclass[a4paper,online,extended]{adcv}
-\PassOptionsToPackage{style=alphabetic}{biblatex}
+\PassOptionsToPackage{style=alphabetic,sorting=ddnt,backend=biber}{biblatex}
 
 \usepackage[english]{babel}
 \addbibresource{bib_luc_blassel.bib}
@@ -26,7 +26,7 @@
 \lighttext{\footnotesize \textsuperscript{f} co-first authors}
 
 \printbibliography[title={Journal articles}, heading=subbibliography, keyword={published}]
-\printbibliography[title={Preprints}, heading=subbibliography, keyword={preprint}]
+\printbibliography[title={Preprints~\&~Submitted articles}, heading=subbibliography, keyword={preprint}]
 \printbibliography[title={Conference talks \& Posters}, heading=subbibliography, keyword={talk}]
 
 
