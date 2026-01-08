@@ -32,6 +32,12 @@
 	\printtrue
 }
 
+\newif\ifacademic
+\academicfalse
+\DeclareOption{academic}{
+  \academictrue
+}
+
 \DeclareOption{bg}{
 	\AtEndOfPackage{
 		\InputIfFileExists{adcv_bg.def}{}{
@@ -436,7 +442,8 @@
 \AtBeginDocument{%
 	\pagestyle{fancy}%
 	\fancyhead{}%
-	\fancyfoot[C]{\footnotesize\light\adcv@firstname~\adcv@lastname\ifextended\adcv@cvofkey\else\adcv@resumeofkey\fi, \adcv@date, \adcv@telephone~\adcv@email}%
+	% \fancyfoot[C]{\footnotesize\light\adcv@firstname~\adcv@lastname\ifextended\adcv@cvofkey\else\adcv@resumeofkey\fi, \adcv@date, \adcv@telephone~\adcv@email}%
+	\fancyfoot[C]{\footnotesize\light\adcv@firstname~\adcv@lastname, \adcv@date, \adcv@telephone~\adcv@email}%
 	\fancyfoot[R]{\raggedleft\footnotesize\light\adcv@page}%
 	\renewcommand{\headrulewidth}{0em}%
 	\setlength\footskip{\baselineskip}%
